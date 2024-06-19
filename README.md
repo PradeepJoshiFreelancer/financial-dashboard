@@ -39,10 +39,14 @@ cd client
 npm install
 
 # Install backend dependencies
+```
 cd ../server
 cp .env.example .env
+```
 Update the MongoDB URL in -env file
+```
 npm install
+```
 
 # From the client folder
 npm run dev
